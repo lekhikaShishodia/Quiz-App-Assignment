@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profit and loss</title>
+    <link rel="stylesheet" href="quiz.css">
+    
+</head>
+<body>
+    
+    <div id="Question">
+        <div id="category" class=" bold" style="text-align: center;">Profit and Loss</div>
+        <div>
+            <div id="timePassed" >
+            <span style="text-align: left;" class="bold">Time Passed</span>
+            <span id="timePassedValue" style="float:right"></span>
+            </div>
+            <div  >
+                <span class="bold">Score</span>
+                <span id="score" style="float:right"></span>
+            </div>
+        </div>
+        <div>
+            <div class="bold"><span>Question : </span><span id="questionNumber"></span></div>
+            <div id="question"></div>
+        </div>
+        <div class="hidden" id="options">
+            <div class="row1">
+                <button id="Option1" class="bold" onclick="checkAnswer('Option1')"></button>
+                <button id="Option2" class="bold" onclick="checkAnswer('Option2')"></button>
+            </div>
+            <div class="row2">
+                <button id="Option3" class="bold" onclick="checkAnswer('Option3')"></button>
+                <button id="Option4" class="bold" onclick="checkAnswer('Option4')"></button>
+            </div>
+        </div>
+        <button id="nextButton" class="bold" onclick="setNext()">Next Question</button>
+    </div>
+
+<!-- <img src="orange.png" alt=""> -->
+</div>
+    <script src="Quiz4.js"></script>
+</body>
+</html>

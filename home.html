@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="quiz.css">
+    </script>
+</head>
+
+<body>
+    <!-- //designing home page -->
+    <div class="container">
+    <div class="userDetails">
+        <div class="logo">
+            <img src="quiz logo.webp" alt="" width="100px" height="100px">
+        </div>
+        <div class="welcomeNoteDiv">
+            <p id="welcomeNote">
+                Welcome, to the Quiz<br> Please enter your name 
+            </p>
+        </div>
+        <div class="nameTextBoxDiv">
+            <input type="text" name="" id="nameTextBox">
+        </div>
+        <div class="EnterButton">
+            <button type="submit" value="Start" onclick="show()">Start Quiz</button>
+        </div>
+    </div>
+    <div class="categories">
+        <!-- //The quiz categories -->
+        <a href="./Quiz1.html"> <button id="category1">Pipes and Cisterns</button></a>
+        <a href="./Quiz2.html"> <button id="category2">Probability</button></a>
+        <a href="./Quiz3.html"> <button id="category3">Problems on Age</button></a>
+        <a href="./Quiz4.html"> <button id="category4">Profit and Loss</button></a>
+    </div>
+</div>
+
+    <script src="home.js"></script>
+</body>
+
+</html>
